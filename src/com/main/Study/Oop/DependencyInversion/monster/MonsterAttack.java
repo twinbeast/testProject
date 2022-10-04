@@ -1,4 +1,4 @@
-package com.main.Study.InterfaceTest.monster;
+package com.main.Study.Oop.DependencyInversion.monster;
 
 public interface MonsterAttack {
     int attack();

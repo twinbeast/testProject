@@ -1,8 +1,8 @@
-package com.main.Study.AbstractTest;
+package com.main.Study.Oop.InterfaceSegregation;
 
-import com.main.Study.AbstractTest.Interface.ARable;
-import com.main.Study.AbstractTest.Interface.Biometricsable;
-import com.main.Study.AbstractTest.Interface.WirelessChargable;
+import com.main.Study.Oop.InterfaceSegregation.Interface.ARable;
+import com.main.Study.Oop.InterfaceSegregation.Interface.Biometricsable;
+import com.main.Study.Oop.InterfaceSegregation.Interface.WirelessChargable;
 
 /**
  * S20 객체

@@ -1,6 +1,11 @@
-package com.main.Study.AbstractTest;
+package com.main.Study.Oop.InterfaceSegregation;
 
-public class AbstractTestClass {
+public class interfaceSegregationTestClass {
+    /**
+     * 인터페이스 분리 원칙
+     * 객체는 자신이 호출하지 않는 메소드에 의존하지 않아야 한다.
+     * https://blog.itcode.dev/posts/2021/08/16/interface-segregation-principle
+     */
     public static void main(String[] args){
         String receiverNumber = "010-0000-0000";
 

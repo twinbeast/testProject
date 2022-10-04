@@ -1,4 +1,4 @@
-package com.main.Study.AbstractTest;
+package com.main.Study.Oop.InterfaceSegregation;
 /**
  * 스마트폰 객체
  *

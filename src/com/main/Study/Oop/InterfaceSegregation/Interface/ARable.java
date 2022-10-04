@@ -1,4 +1,4 @@
-package com.main.Study.AbstractTest.Interface;
+package com.main.Study.Oop.InterfaceSegregation.Interface;
 
 
 /**

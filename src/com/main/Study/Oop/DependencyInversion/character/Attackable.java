@@ -1,4 +1,4 @@
-package com.main.Study.InterfaceTest.character;
+package com.main.Study.Oop.DependencyInversion.character;
 
 /**
  * 공격 인터페이스

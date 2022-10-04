@@ -1,4 +1,4 @@
-package com.main.Study.AbstractTest.Interface;
+package com.main.Study.Oop.InterfaceSegregation.Interface;
 
 /**
  * 무선충전 인터페이스
