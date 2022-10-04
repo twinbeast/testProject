@@ -1,5 +1,10 @@
 package com.main.Study.Oop.OpenClosed;
 
+import com.main.Study.Oop.OpenClosed.Card.CardA;
+import com.main.Study.Oop.OpenClosed.Card.CardD;
+import com.main.Study.Oop.OpenClosed.Pos.NewPos;
+import com.main.Study.Oop.OpenClosed.Pos.OldPos;
+
 public class OpenClosedTestClass {
     /**
      * 개방-폐쇄 원칙
@@ -9,5 +14,16 @@ public class OpenClosedTestClass {
      * https://blog.itcode.dev/posts/2021/08/14/open-closed-principle
      */
     public static void main(String[] args){
+        CardA card = new CardA();
+
+        OldPos oldPos = new OldPos();
+        oldPos.purchase(card, "A", 5000);   // A 카드 5000원 구매
+
+        CardD newCard = new CardD();
+        oldPos.purchase(newCard, "D", 1000);
+
+        NewPos newPos = new NewPos();
+        newPos.purchase(newCard, 1000);
+
     }
 }
